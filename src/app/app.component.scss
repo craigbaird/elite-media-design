@@ -1,0 +1,29 @@
+// Brand Colors
+$brand-color-blue: #002f6c;
+$brand-color-orange: #F0AD4E;
+
+// Page Styles
+.page-container {
+    height: 100vh;
+}
+
+.content-area {
+    height: fit-content;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.body {
+    padding-top: 85px;
+    height: 1000px;
+    background-image: url("../assets/texture.jpeg"); 
+}
+
+.footer {
+    background-color: $brand-color-orange;
+}
