@@ -3,10 +3,12 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    // "start": "ng serve", // dev only 
+    "start": "node server.js", // prod only
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
+    "postinstall": "ng build — aot — prod", // prod only
     "e2e": "ng e2e"
   },
   "private": true,
@@ -43,5 +45,6 @@
     "ts-node": "~8.3.0",
     "tslint": "~5.18.0",
     "typescript": "~3.7.5"
-  }
+  },
+  "engines": { "node": "12.16.1", "npm": "6.14.4" } // prod only
 }
