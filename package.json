@@ -4,10 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js", 
-    "build": "ng build",
+    "build": "ng build -a elite-media-design",
     "test": "ng test",
     "lint": "ng lint",
-    "postinstall": "ng build elite-media-design", 
+    "postinstall": "ng build -a elite-media-design", 
     "e2e": "ng e2e"
   },
   "private": true,
